@@ -1,8 +1,8 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
-	"main": "main.js",
+	"name": "basic-multi-events",
+	"version": "0.0.1",
+	"description": "Some playing with Obsidian API",
+	"main": "output/main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
