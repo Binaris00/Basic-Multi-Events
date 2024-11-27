@@ -2,7 +2,7 @@
 	"name": "basic-multi-events",
 	"version": "0.0.1",
 	"description": "Some playing with Obsidian API",
-	"main": "main.js",
+	"main": "dist/main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
